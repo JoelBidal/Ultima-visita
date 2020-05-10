@@ -1,6 +1,6 @@
 @font-face{
     font-family: Proxima Nova;
-    src: url(fonts/Proxima\ Nova\ Thin.otf);
+    src: url(fonts/Proxima-Nova-Thin.otf);
 }
 
 @font-face{
@@ -10,5 +10,10 @@
 
 @font-face{
     font-family: Proxima Nova;
-    src: url(fonts/Proxima\ Nova\ Bold.otf);
+    src: url(fonts/Proxima-Nova-Bold.otf);
+}
+
+@font-face{
+    font-family: Proxima Nova;
+    src: url(fonts/Proxima-Nova-Black.otf);
 }
