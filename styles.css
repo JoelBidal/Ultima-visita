@@ -113,7 +113,12 @@ body{
     overflow: hidden;
 }
 
-.tarjeta:hover{box-shadow: 1px 0px 7px #a7a7a7;}
+.imagenTarjeta{
+    border: 1px solid rgba(173, 173, 173, 0.055);
+    border-radius: 4px;
+}
+
+.tarjeta:hover{box-shadow: 1px 0px 7px #a7a7a7a9; border-radius: 5px;}
 
 .informacionTarjeta{
     max-width: 250px;
@@ -184,4 +189,37 @@ footer h2{
 footer h2 a{
     text-decoration: none;
     color: #000;
+}
+
+
+/* Media queris */
+
+@media screen and (min-width: 1440px){
+    .formasDePago{
+        width: 65%;
+    }
+    .imagenTarjeta img {
+        max-width: 335px;
+
+    }  
+    .informacionTarjeta {
+        max-width:335px;
+    }
+    .informacionTarjeta p {
+        width: 314px;
+        top: 312px;
+        height: 420px;
+    }
+    .textoUltimasVisitas {
+        padding-left: 16%;
+    }
+    .opcionesDePago {
+        left: -140px;
+    }
+    .svgMasMedios {
+        left: -25px;
+    }
+    .borde{
+        right: 32%;
+    }
 }
